@@ -27,22 +27,25 @@ h1 {
   color: #333;
 }
 
-.mood-buttons {
-  margin: 20px 0;
+input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 80%;
 }
 
-.mood-buttons button {
+button {
   background-color: #007BFF;
   color: white;
   border: none;
   padding: 10px 20px;
-  margin: 5px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
 }
 
-.mood-buttons button:hover {
+button:hover {
   background-color: #0056b3;
 }
 
