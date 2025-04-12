@@ -9,15 +9,10 @@
 <body>
   <div class="container">
     <h1>기분에 맞는 음식 추천</h1>
-    <p>오늘 기분이 어때요?</p>
+    <p>오늘 기분을 입력하세요:</p>
 
-    <div class="mood-buttons">
-      <button onclick="recommendFood('기쁨')">기쁨</button>
-      <button onclick="recommendFood('행복')">행복</button>
-      <button onclick="recommendFood('슬픔')">슬픔</button>
-      <button onclick="recommendFood('피곤함')">피곤함</button>
-      <button onclick="recommendFood('에너지 넘침')">에너지 넘침</button>
-    </div>
+    <input type="text" id="mood-input" placeholder="기분을 입력하세요..." />
+    <button onclick="recommendFood()">추천받기</button>
 
     <div id="recommendation">
       <h2>추천 음식:</h2>
